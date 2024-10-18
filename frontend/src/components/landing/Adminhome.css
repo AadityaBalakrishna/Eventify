@@ -1,0 +1,94 @@
+
+.Adminhome-container {
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+  }
+  
+  .card {
+    background-color: #db6232;
+    padding: 60px;
+    border-radius: 10px;
+    width: 270px;
+    height:250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .card:hover {
+    background-color: green; 
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+  }
+  
+  .featureCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  
+  
+  .row {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px; /* Adjust the gap between cards as needed */
+  }
+  
+  .event-date-label {
+    font-weight: bold;
+    margin-right: 5px; /* Add spacing between label and date */
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+    justify-content: space-around; /* Improved spacing between cards */
+    margin-bottom: 20px; /* Increased margin between rows of cards */
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin for better spacing */
+  }
+  
+  .input,
+  .select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Increased margin for better spacing */
+  }
+  
+  .button {
+    width: 100%;
+    padding: 30px; /* Adjusted padding for button size */
+    background-color: #4CAF50;
+    color: rgb(225, 27, 27);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Added transition for smoother hover effect */
+  }
+  
+  .button:hover {
+    background-color: #a48b28;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px; /* Increased margin for better spacing */
+  }

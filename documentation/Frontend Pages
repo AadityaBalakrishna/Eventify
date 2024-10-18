@@ -1,0 +1,19 @@
+Frontend Pages: 
+0) Welcome Page - Done
+1) Login        - Done
+2) Sign Up      - Done
+
+3) Landing Page for all users: - + to display all the 4)  professional upcoming events in the homepage - Done
+                                                          + Joining an Event
+- Create Event page --> 5) Event Details ( Name, Description, Event Type, Venue Booking, Picture ) - Done
+                    --> 6) MyPackage                                                               - Done
+                    --> 7) MyCart (Venue Price + Cart Cost)
+                    --> 8) MyPayment (Dummy Payment page with username verification)
+                    --> 9) Successful Payment ("Go to MyHome" , "Go to MyEvents")
+- 10) MyEvents (Display TP_EVENTS, with view details)
+- 11) MyProfile (Read + Update + Delete)
+ 
+12) Landing Page for Admin
+                   --> 13) MyVenues (Create + Read + Update + Delete)                     - Done
+                   --> 14) MyInventory (Create + Read + Update + Delete)                  - Done
+                   --> 15) MyOrders (Display TP_EVENTS, with view details)                - Done

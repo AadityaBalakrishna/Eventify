@@ -1,0 +1,29 @@
+
+.my-events-container {
+  padding: 10px; /* Add padding around the container */
+}
+
+.row {
+  margin-left: 10px;  /* Adjust left margin */
+  margin-right: 10px; /* Adjust right margin */
+}
+
+.categories-column,
+.items-column,
+.cart-column {
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.table {
+  margin-bottom: 20px; /* Space between tables */
+}
+
+.cart-column {
+  position: sticky;
+  top: 0; /* Fixes the cart to the top */
+}
+
+.select-category {
+  background-color: #007bff;
+  color: white;
+}

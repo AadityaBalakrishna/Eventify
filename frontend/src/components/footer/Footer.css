@@ -1,0 +1,38 @@
+.footer {
+    position:  relative ;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0b0d72;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.footer-links a {
+    margin-right: 70px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.footer-text p {
+    margin: 5px 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding-bottom: 50px; 
+}
+
+.main-content {
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+

@@ -1,0 +1,145 @@
+
+.events-container {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.create-event-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.create-event-button:hover {
+  background-color: #45a049;
+}
+
+.events-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 15px;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.event-card-content {
+  padding: 15px;
+}
+
+.event-card-content h4 {
+  margin: 10px 0;
+}
+
+.view-button {
+  background-color: #008cba;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #007bb5;
+}
+
+.carousel-controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.carousel-button {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.carousel-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.popup-buttons {
+  margin-top: 20px;
+}
+
+.join-button, .close-popup-button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.join-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.join-button:hover {
+  background-color: #45a049;
+}
+
+.close-popup-button {
+  background-color: #f44336;
+  color: white;
+  margin-left: 10px;
+}
+
+.close-popup-button:hover {
+  background-color: #e53935;
+}
+
